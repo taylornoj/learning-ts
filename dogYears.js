@@ -5,4 +5,3 @@ if (aged) {
 }
 var dogAge = realAge * 7;
 console.log("".concat(dogAge, " years"));
-//# sourceMappingURL=dogYears.js.map
