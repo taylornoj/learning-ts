@@ -4,7 +4,7 @@ TypeScript will then consider a variable to be of type ```any```
 
 Variables of type ```any``` can be assigned to any value and TypeScript won't give an error if they are reassigned to a different type later on:
 
-```
+```typescript
 let onOrOff;
  
 onOrOff = 1;

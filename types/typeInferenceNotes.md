@@ -19,7 +19,7 @@ primitive data types:
 
 This will result in error:
 ```Type '1' is not assignable to type 'string'```
-```
+``` typescript
 let order = 'first';
  
 order = 1;
@@ -27,7 +27,7 @@ order = 1;
 
 We can fix this complaint by changing the new
 value to be the expected string type:
-```
+``` typescript
 let order = 'first';
  
 order = '1';
